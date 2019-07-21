@@ -14,3 +14,38 @@ body {
   color: $yellow;
   background: $violet;
 }
+
+.site__header {
+  width: 100%;
+  background: $white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0 30px 0 0;
+}
+
+.navigation__item {
+  padding: 10px 20px;
+}
+
+.navigation__item:hover {
+  background: $lightgrey;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.navigation__item:hover .navigation__link {
+  color: $white;
+  transition: color 0.5s ease-in-out;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: $lightgrey;
+}
