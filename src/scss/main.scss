@@ -32,17 +32,11 @@ body {
 }
 
 .navigation__item {
-  padding: 10px 20px;
-}
-
-.navigation__item:hover {
-  background: $lightgrey;
-  transition: background-color 0.5s ease-in-out;
+  padding: 16px 24px;
 }
 
 .navigation__item:hover .navigation__link {
-  color: $white;
-  transition: color 0.5s ease-in-out;
+  border-bottom: 1px solid $lightgrey;
 }
 
 .navigation__link {
