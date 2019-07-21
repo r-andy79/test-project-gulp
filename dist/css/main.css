@@ -321,7 +321,17 @@ body {
 
 .site__header {
   width: 100%;
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.logo {
+  color: #888888;
+  margin-left: 30px; }
 
 .navigation {
   display: -webkit-box;
@@ -342,10 +352,10 @@ body {
   padding: 16px 24px; }
 
 .navigation__item:hover .navigation__link {
-  border-bottom: 1px solid #CCCCCC; }
+  border-bottom: 1px solid #888888; }
 
 .navigation__link {
   text-decoration: none;
-  color: #CCCCCC; }
+  color: #888888; }
 
 /*# sourceMappingURL=main.css.map */

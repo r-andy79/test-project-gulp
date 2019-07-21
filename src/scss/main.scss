@@ -18,6 +18,13 @@ body {
 .site__header {
   width: 100%;
   background: $white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: $darkgrey;
+  margin-left: 30px;
 }
 
 .navigation {
@@ -36,10 +43,10 @@ body {
 }
 
 .navigation__item:hover .navigation__link {
-  border-bottom: 1px solid $lightgrey;
+  border-bottom: 1px solid $darkgrey;
 }
 
 .navigation__link {
   text-decoration: none;
-  color: $lightgrey;
+  color: $darkgrey;
 }
